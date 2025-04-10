@@ -95,40 +95,9 @@ img {
 }
 
 @import "partials/_hero-section.scss";
-
-.section.improve-skills {
-    .col.img {
-        img {
-            width: 100%;
-        }
-    }
-
-    .col.typography {
-        padding-left: 1em;
-
-        .skill-item {
-            border-left: .2em solid var(--primary-color);
-            margin-bottom: .5em;
-            padding: .1em 0 .1em .5em;
-            color: var(--text-light);
-            font-weight: bold;
-            transform: translateX(100%);
-            opacity: 0;
-            animation: getAnimationDuration(.3s) slideInRight forwards;
-
-            @for $i from 2 through 7 {
-                &:nth-child(#{$i}) {
-                    animation-delay: #{$i * .1}s;
-                }
-            }
-        }
-
-        .btn {
-            margin-top: .75em;
-        }
-    }
-}
-
+@import "partials/_improve-section.scss";
+@import "partials/_quote-section.scss";
+@import "partials/_chiefs-section.scss";
 
 .main {
     padding-block: 3vw;
@@ -149,4 +118,9 @@ img {
             display: block;
         }
     }
+
+    .chief-card {
+        box-shadow: 0 5px 10px var(--shadow-color);
+    }
+
 }
