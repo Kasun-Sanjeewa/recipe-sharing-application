@@ -43,3 +43,6 @@ Before starting, ensure you have the following installed:
 ```bash
 git https://github.com/Kasun-Sanjeewa/recipe-sharing-application.git
 cd wildcookbook
+npm install
+npm install -g json-server
+
