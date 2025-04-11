@@ -63,7 +63,7 @@ const chiefSlice = createSlice({
     name: "chiefs",
     initialState,
     reducers: {
-        // You can add reducers like addChief, removeChief, etc.
+
     },
 });
 

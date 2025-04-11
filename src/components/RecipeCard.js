@@ -1,6 +1,6 @@
 import { useState } from "react";
 import CustomImage from "./CustomImage";
-import RecipeModal from "./RecipeModal"; // new modal component
+import RecipeModal from "./RecipeModal";
 
 export default function RecipeCard({ recipe }) {
     const [showModal, setShowModal] = useState(false);

@@ -22,7 +22,7 @@ export default function PreviousSearches({ onSearch }) {
                         key={index}
                         style={{ animationDelay: index * 0.1 + "s" }}
                         className="search-item"
-                        onClick={() => onSearch(search)} // 👈 on click, trigger search
+                        onClick={() => onSearch(search)} // on click, trigger search
                     >
                         {search}
                     </div>
