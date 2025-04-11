@@ -2,6 +2,25 @@ import ChiefCard from "./ChiefCard"
 
 export default function ChiefsSection() {
     const chiefs = [
+
+        {
+            name: "Charith N Silva",
+            img: "/img/top-chiefs/img_8.jpg",
+            recipesCount: "20",
+            cuisine: "Sri Lankan",
+        },
+        {
+            name: "Dharshan Munidasa",
+            img: "/img/top-chiefs/img_7.jpg",
+            recipesCount: "18",
+            cuisine: "Sri Lankan",
+        },
+        {
+            name: "Ambagaspitiya",
+            img: "/img/top-chiefs/img_9.jpg",
+            recipesCount: "16",
+            cuisine: "Sri Lankan",
+        },
         {
             name: "Juan Carlos",
             img: "/img/top-chiefs/img_1.jpg",
