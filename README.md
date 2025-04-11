@@ -36,13 +36,40 @@ Before starting, ensure you have the following installed:
 
 ---
 
+## ✅ All Steps
+
+1. Clone the Repository
+2. Install Dependencies
+3. Install JSON Server Globally (If not already installed)
+4. Start the JSON Server
+- Make sure you're in the project root (where db.json is located), then run:
+- In your package.jon, place this under "scripts" - "server": "json-server --port 8000 --watch db.json --host 127.0.0.1",
+5. Start the React App
+
+---
+
+## ✅ Login & Signup Instructions
+
+1. Go to the Login or Signup page in the app.
+2. To Sign Up:
+- Click on Sign Up.
+- Enter a unique username and password.
+- Submit to create your account.
+3. To Log In:
+- Enter your registered username and password.
+- You’ll be redirected to the homepage on success.
+5. All login data is saved in db.json under the users array.
+
+---
+
 ## 📥 Getting Started
 
 ### 1. Clone the Repository
 
 ```bash
-git https://github.com/Kasun-Sanjeewa/recipe-sharing-application.git
+git clone https://github.com/Kasun-Sanjeewa/recipe-sharing-application.git
 cd wildcookbook
 npm install
 npm install -g json-server
+
 
