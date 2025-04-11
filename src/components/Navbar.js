@@ -1,18 +1,12 @@
-import { Link, useLocation } from "react-router-dom"
-import { useState } from "react"
-import Sidebar from "./Sidebar"
+import { Link, useLocation } from "react-router-dom";
+import { useState } from "react";
+import Sidebar from "./Sidebar";
+import { Button } from "@mui/material";
+import { faHome, faList, faCog, faHeart, faPlus } from "@fortawesome/free-solid-svg-icons";
 
-import {
-    faHome,
-    faList,
-    faCog,
-    faHeart,
-    faPlus // Icon for Manage Recipes
-} from "@fortawesome/free-solid-svg-icons"
-
-export default function Navbar() {
-    const [showSidebar, setShowSidebar] = useState(false)
-    const location = useLocation()
+export default function Navbar({ onLogout }) {
+    const [showSidebar, setShowSidebar] = useState(false);
+    const location = useLocation();
 
     const links = [
         {
@@ -40,10 +34,10 @@ export default function Navbar() {
             path: "/settings",
             icon: faCog
         }
-    ]
+    ];
 
     function closeSidebar() {
-        setShowSidebar(false)
+        setShowSidebar(false);
     }
 
     return (
@@ -60,6 +54,15 @@ export default function Navbar() {
                             {link.name}
                         </Link>
                     ))}
+                    {/* Logout Button with Left Margin */}
+                    <Button
+                        variant="outlined"
+                        color="secondary"
+                        onClick={onLogout}
+                        sx={{ ml: "2em" }}  // 2em left margin
+                    >
+                        Logout
+                    </Button>
                 </div>
                 <div
                     onClick={() => setShowSidebar(true)}
@@ -72,5 +75,5 @@ export default function Navbar() {
             </div>
             {showSidebar && <Sidebar close={closeSidebar} links={links} />}
         </>
-    )
+    );
 }

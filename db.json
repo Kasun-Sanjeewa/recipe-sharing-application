@@ -127,6 +127,26 @@
       "authorImg": "/img/top-chiefs/img_6.jpg",
       "cookingTime": 50,
       "rating": 4.7
+    },
+    {
+      "id": 8,
+      "title": "American Cheese Burger",
+      "image": "/img/gallery/img_5.jpg",
+      "authorImg": "/img/top-chiefs/img_3.jpg",
+      "cookingTime": 25,
+      "rating": 4
+    }
+  ],
+  "users": [
+    {
+      "id": 1,
+      "username": "admin",
+      "password": "admin123"
+    },
+    {
+      "username": "admin2",
+      "password": "123456",
+      "id": 2
     }
   ]
 }
