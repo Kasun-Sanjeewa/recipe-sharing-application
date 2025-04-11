@@ -10,6 +10,7 @@ import Home from "./pages/Home";
 import Recipes from "./pages/Recipes";
 import Settings from "./pages/Settings";
 import Favorites from "./pages/Favorites";
+import ManageRecipes from "./components/ManageRecipes";
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
           <Route path="/recipes" element={<Recipes />} />
           <Route path="/settings" element={<Settings />} />
           <Route path="/favorites" element={<Favorites />} />
+          <Route path="/manage-recipes" element={<ManageRecipes />} />
         </Routes>
       </div>
       <Footer />

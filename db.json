@@ -6,7 +6,13 @@
       "image": "/img/gallery/img_1.jpg",
       "authorImg": "/img/top-chiefs/img_1.jpg",
       "cookingTime": 30,
-      "rating": 4.2
+      "rating": "4.5",
+      "ingredients": [
+        "Ingedient1"
+      ],
+      "instructions": [
+        "Instraction1"
+      ]
     },
     {
       "id": 2,
