@@ -18,6 +18,7 @@
             transform: translateX(100%);
             opacity: 0;
             animation: getAnimationDuration(.5s) slideInRight forwards;
+            cursor: pointer;
         }
     }
 
