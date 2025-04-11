@@ -176,6 +176,23 @@ img {
     padding-inline: 18vw;
 }
 
+.remove-fav-btn {
+    margin: 0.5rem auto 1.5rem;
+    padding: 0.5rem 1rem;
+    background: var(--primary-color);
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    display: block;
+    font-weight: bold;
+}
+
+.remove-fav-btn:hover {
+    background: #cc0000;
+}
+
+
 @import "partials/animations.scss";
 
 @media screen and (max-width: 1280px) {

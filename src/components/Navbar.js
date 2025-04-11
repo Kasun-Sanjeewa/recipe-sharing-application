@@ -20,10 +20,15 @@ export default function Navbar() {
             icon: faList
         },
         {
+            name: "❤️Favorites",
+            path: "/favorites",
+        },
+        {
             name: "Settings",
             path: "/settings",
             icon: faCog
         }
+
     ]
 
     function closeSidebar() {

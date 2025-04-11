@@ -1,100 +1,126 @@
 {
-    "recipes": [
-        {
-            "id": 1,
-            "title": "Chicken Pan Pizza",
-            "image": "/img/gallery/img_1.jpg",
-            "authorImg": "/img/top-chiefs/img_1.jpg",
-            "cookingTime": 30,
-            "rating": 4.2
-        },
-        {
-            "id": 2,
-            "title": "Spaghetti and Meatballs",
-            "image": "/img/gallery/img_4.jpg",
-            "authorImg": "/img/top-chiefs/img_2.jpg",
-            "cookingTime": 45,
-            "rating": 4.6
-        },
-        {
-            "id": 3,
-            "title": "American Cheese Burger",
-            "image": "/img/gallery/img_5.jpg",
-            "authorImg": "/img/top-chiefs/img_3.jpg",
-            "cookingTime": 25,
-            "rating": 4.0
-        },
-        {
-            "id": 4,
-            "title": "Mutton Biriyani",
-            "image": "/img/gallery/img_6.jpg",
-            "authorImg": "/img/top-chiefs/img_5.jpg",
-            "cookingTime": 60,
-            "rating": 4.8
-        },
-        {
-            "id": 5,
-            "title": "Japanese Sushi",
-            "image": "/img/gallery/img_10.jpg",
-            "authorImg": "/img/top-chiefs/img_6.jpg",
-            "cookingTime": 50,
-            "rating": 4.7
-        },
-        {
-            "id": 6,
-            "title": "Chicken Pan Pizza",
-            "image": "/img/gallery/img_1.jpg",
-            "authorImg": "/img/top-chiefs/img_1.jpg",
-            "cookingTime": 30,
-            "rating": 4.2
-        },
-        {
-            "id": 7,
-            "title": "Spaghetti and Meatballs",
-            "image": "/img/gallery/img_4.jpg",
-            "authorImg": "/img/top-chiefs/img_2.jpg",
-            "cookingTime": 45,
-            "rating": 4.6
-        },
-        {
-            "id": 8,
-            "title": "American Cheese Burger",
-            "image": "/img/gallery/img_5.jpg",
-            "authorImg": "/img/top-chiefs/img_3.jpg",
-            "cookingTime": 25,
-            "rating": 4.0
-        },
-        {
-            "id": 9,
-            "title": "Mutton Biriyani",
-            "image": "/img/gallery/img_6.jpg",
-            "authorImg": "/img/top-chiefs/img_5.jpg",
-            "cookingTime": 60,
-            "rating": 4.8
-        },
-        {
-            "id": 10,
-            "title": "Japanese Sushi",
-            "image": "/img/gallery/img_10.jpg",
-            "authorImg": "/img/top-chiefs/img_6.jpg",
-            "cookingTime": 50,
-            "rating": 4.7
-        },
-        {
-            "id": 11,
-            "title": "American Cheese Burger",
-            "image": "/img/gallery/img_5.jpg",
-            "authorImg": "/img/top-chiefs/img_3.jpg",
-            "cookingTime": 25,
-            "rating": 4.0
-        },
-        {
-            "id": 12,
-            "title": "Mutton Biriyani",
-            "image": "/img/gallery/img_6.jpg",
-            "authorImg": "/img/top-chiefs/img_5.jpg",
-            "cookingTime": 60,
-            "rating": 4.8
-        }
-    ]
+  "recipes": [
+    {
+      "id": 1,
+      "title": "Chicken Pan Pizza",
+      "image": "/img/gallery/img_1.jpg",
+      "authorImg": "/img/top-chiefs/img_1.jpg",
+      "cookingTime": 30,
+      "rating": 4.2
+    },
+    {
+      "id": 2,
+      "title": "Spaghetti and Meatballs",
+      "image": "/img/gallery/img_4.jpg",
+      "authorImg": "/img/top-chiefs/img_2.jpg",
+      "cookingTime": 45,
+      "rating": 4.6
+    },
+    {
+      "id": 3,
+      "title": "American Cheese Burger",
+      "image": "/img/gallery/img_5.jpg",
+      "authorImg": "/img/top-chiefs/img_3.jpg",
+      "cookingTime": 25,
+      "rating": 4
+    },
+    {
+      "id": 4,
+      "title": "Mutton Biriyani",
+      "image": "/img/gallery/img_6.jpg",
+      "authorImg": "/img/top-chiefs/img_5.jpg",
+      "cookingTime": 60,
+      "rating": 4.8
+    },
+    {
+      "id": 5,
+      "title": "Japanese Sushi",
+      "image": "/img/gallery/img_10.jpg",
+      "authorImg": "/img/top-chiefs/img_6.jpg",
+      "cookingTime": 50,
+      "rating": 4.7
+    },
+    {
+      "id": 6,
+      "title": "Chicken Pan Pizza",
+      "image": "/img/gallery/img_1.jpg",
+      "authorImg": "/img/top-chiefs/img_1.jpg",
+      "cookingTime": 30,
+      "rating": 4.2
+    },
+    {
+      "id": 7,
+      "title": "Spaghetti and Meatballs",
+      "image": "/img/gallery/img_4.jpg",
+      "authorImg": "/img/top-chiefs/img_2.jpg",
+      "cookingTime": 45,
+      "rating": 4.6
+    },
+    {
+      "id": 8,
+      "title": "American Cheese Burger",
+      "image": "/img/gallery/img_5.jpg",
+      "authorImg": "/img/top-chiefs/img_3.jpg",
+      "cookingTime": 25,
+      "rating": 4
+    },
+    {
+      "id": 9,
+      "title": "Mutton Biriyani",
+      "image": "/img/gallery/img_6.jpg",
+      "authorImg": "/img/top-chiefs/img_5.jpg",
+      "cookingTime": 60,
+      "rating": 4.8
+    },
+    {
+      "id": 10,
+      "title": "Japanese Sushi",
+      "image": "/img/gallery/img_10.jpg",
+      "authorImg": "/img/top-chiefs/img_6.jpg",
+      "cookingTime": 50,
+      "rating": 4.7
+    },
+    {
+      "id": 11,
+      "title": "American Cheese Burger",
+      "image": "/img/gallery/img_5.jpg",
+      "authorImg": "/img/top-chiefs/img_3.jpg",
+      "cookingTime": 25,
+      "rating": 4
+    },
+    {
+      "id": 12,
+      "title": "Mutton Biriyani",
+      "image": "/img/gallery/img_6.jpg",
+      "authorImg": "/img/top-chiefs/img_5.jpg",
+      "cookingTime": 60,
+      "rating": 4.8
+    }
+  ],
+  "favorites": [
+    {
+      "id": 3,
+      "title": "American Cheese Burger",
+      "image": "/img/gallery/img_5.jpg",
+      "authorImg": "/img/top-chiefs/img_3.jpg",
+      "cookingTime": 25,
+      "rating": 4
+    },
+    {
+      "id": 4,
+      "title": "Mutton Biriyani",
+      "image": "/img/gallery/img_6.jpg",
+      "authorImg": "/img/top-chiefs/img_5.jpg",
+      "cookingTime": 60,
+      "rating": 4.8
+    },
+    {
+      "id": 10,
+      "title": "Japanese Sushi",
+      "image": "/img/gallery/img_10.jpg",
+      "authorImg": "/img/top-chiefs/img_6.jpg",
+      "cookingTime": 50,
+      "rating": 4.7
+    }
+  ]
 }

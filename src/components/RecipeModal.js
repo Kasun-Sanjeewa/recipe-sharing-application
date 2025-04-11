@@ -3,6 +3,7 @@ import { useState, useEffect } from "react";
 export default function RecipeModal({ recipe, onClose }) {
     const [timer, setTimer] = useState(recipe.cookingTime * 60);
     const [running, setRunning] = useState(false);
+    const [isSaved, setIsSaved] = useState(false); // to avoid duplicate saves
 
     useEffect(() => {
         let interval = null;
@@ -18,6 +19,29 @@ export default function RecipeModal({ recipe, onClose }) {
         const mins = Math.floor(sec / 60);
         const secs = sec % 60;
         return `${mins.toString().padStart(2, '0')}:${secs.toString().padStart(2, '0')}`;
+    };
+
+    const handleSaveToFavorites = async () => {
+        if (isSaved) return;
+
+        try {
+            const res = await fetch("http://localhost:8000/favorites", {
+                method: "POST",
+                headers: {
+                    "Content-Type": "application/json",
+                },
+                body: JSON.stringify(recipe),
+            });
+
+            if (res.ok) {
+                setIsSaved(true);
+                alert("Recipe saved to favorites! 💾");
+            } else {
+                throw new Error("Failed to save");
+            }
+        } catch (err) {
+            console.error("Error saving to favorites:", err);
+        }
     };
 
     return (
@@ -41,7 +65,11 @@ export default function RecipeModal({ recipe, onClose }) {
                     ))}
                 </ol>
 
-                <button className="favorite-btn">🤍 Save to Favorites</button>
+                <div style={{ textAlign: "center" }}>
+                    <button className="favorite-btn" onClick={handleSaveToFavorites}>
+                        {isSaved ? "❤️ Saved" : "🤍 Save to Favorites"}
+                    </button>
+                </div>
 
                 <div className="timer-section">
                     <h4>⏱ Cooking Timer: {formatTime(timer)}</h4>
